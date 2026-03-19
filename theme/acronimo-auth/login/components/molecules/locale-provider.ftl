@@ -5,8 +5,8 @@
   <div class="ac-locale" x-data="{ open: false }">
     <@link.kw
       @click="open = !open"
-      aria-expanded="false"
-      aria-haspopup="listbox"
+      aria\-expanded="false"
+      aria\-haspopup="listbox"
       color="secondary"
       component="button"
       type="button"
