@@ -5,11 +5,11 @@
   <div class="ac-locale" x-data="{ open: false }">
     <@link.kw
       @click="open = !open"
+      aria-expanded="false"
       aria-haspopup="listbox"
       color="secondary"
       component="button"
       type="button"
-      x-bind:aria-expanded="open ? 'true' : 'false'"
     >
       <span class="ac-locale-current">${currentLocale}</span>
       <@icon.kw />
